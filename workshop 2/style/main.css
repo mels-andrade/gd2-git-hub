@@ -1,0 +1,42 @@
+.q_a {
+    width: 700px;
+    margin: auto;
+}
+
+.q {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-indent: -30px;
+    letter-spacing: 0.025cm;
+}
+
+.a {
+    width: 500px;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: lightblue;
+}
+
+.bullet {
+    width: 150px;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: lightblue;
+}
+
+/* h1 {
+    font-size: 150px;
+    font-weight: normal;
+}
+
+p {
+    color: limegreen;
+}
+
+ul { 
+    color: limegreen
+}
+
+a {
+    color: plum;
+} */
