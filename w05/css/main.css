@@ -142,7 +142,9 @@ footer {
 }
 
 .album-thumbs {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(150px, 1fr));
-    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.thumbnail, .thumbnail img {
+    max-width: 800px;
 }
