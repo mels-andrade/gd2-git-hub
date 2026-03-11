@@ -131,8 +131,18 @@ footer {
 
 }
 
+#menu.active {
+    display:block;
+}
+
 .menu-content {
     max-width:600px;
     margin:auto;
     padding:6em;
+}
+
+.album-thumbs {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(150px, 1fr));
+    gap: 1rem;
 }
