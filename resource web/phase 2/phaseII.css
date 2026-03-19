@@ -1,0 +1,82 @@
+/*colours: 
+    pale green: #B2BEAC
+    sage: #616F61
+    charcoal: #0C0801
+    cream: #F1F0E4
+*/
+
+html,body{
+    margin: 40px;
+    background-color: #F1F0E4;
+}
+
+/*warbler text font*/
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../fonts/warbler/text/warbler text regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../fonts/warbler/text/warbler text italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../fonts/warbler/text/warbler text bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../fonts/warbler/text/warbler text bold italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*warbler display font*/
+@font-face {
+  font-family: 'Warbler Display';
+  src: url('../fonts/warbler/display/warbler display regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Warbler Display';
+  src: url('../fonts/warbler/display/warbler display italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Warbler Display';
+  src: url('../fonts/warbler/display/warbler display bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Warbler Display';
+  src: url('../fonts/warbler/display/warbler display bold italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 787px;
+    height: 100px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    background-color:#B2BEAC;
+}
+
+.navigation{
+    font-family:;
+}
