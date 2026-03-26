@@ -249,23 +249,37 @@ html,body{
   width: 100%;
   margin-top: 20px
 }
-/*.rock-grid {
+.rock-grid {
+  margin-top: 166px;
+  /*margin-left: 155px;
+  margin-right: 155px;*/
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 72px;
+  justify-items: center;
+}
+.rock-item {
+  text-align: center;
 }
 .rock-item img {
   width: 100%;
-  max-width: 359px; /* controls size of rocks 
-  height: auto;
+  aspect-ratio: 1/1; /*perfect square ratio for images*/
+  object-fit: cover; /*crops image to fit within the square*/
+  max-width: 329px;  
+  max-height: 329px;
+  align-items:center;
 }
 .rock-name {
-  display: block;
+  margin-top: 24px;
+  display: inline-block; 
+  padding: 5px 12.5px;
   font-family: 'Warbler Deck';
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
   color: #616F61;
-}*/
+  background-color: #B2BEAC;
+}
 
 /*footer*/
 .footer{
