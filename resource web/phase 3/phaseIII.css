@@ -218,10 +218,11 @@ html,body{
 }
 .navigation{
   display: flex;
-  gap: 130px;
+  gap: 175px;
 }
 .navigation a{
     font-family: 'Masqualero';
+    font-variant: small-caps;
     font-weight: 300;
     font-size: 20px;
     color: #0C0801;
@@ -258,7 +259,6 @@ html,body{
   column-gap: 72px;
   justify-items: center;
 }
-
 .rock-item img {
   width: 100%;
   aspect-ratio: 1/1; /*perfect square ratio for images*/
