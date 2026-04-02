@@ -21,3 +21,36 @@ h3{
     font-size: 50px;
     color: #0c0801;
 }
+
+.nav-div{
+    border-top: 2px solid #B2BEAC;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*hero image*/
+#rock-image {
+    width: 100%;
+    max-width: 1360px;
+    aspect-ratio: 1360 / 874; /*ensures that image matches figma image size*/
+    object-fit: cover; /*ensures that image fits with the correct dimensions*/
+    height: auto;
+    display: block;
+}
+.image-div{
+    border-top: 2px solid #B2BEAC;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*header*/
+#rock-title{
+    font-family: 'Masqualero';
+    font-variant: small-caps;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 75px;
+    color: #0c0801;
+}
+
