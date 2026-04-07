@@ -27,8 +27,8 @@ const anecdotalData ={
         locTime: ['found in new york city, ny | may 2023']
     },
     ii:{
-        anecdote: [''],
-        locTime: ['']
+        anecdote: ['This right here is my favourite rock. The look and texture kind of remind me of swiss cheese.', 'Maybe that is why I like it so much.'],
+        locTime: ['found in toronto, on | date unknown']
     },
     iii:{
         anecdote: ['When I look at this rock, I am reminded of the two lovely ladybugs that crawled all over my hands and the unsettling Spongebob popsicle that my sister had.'],
