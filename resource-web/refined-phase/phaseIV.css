@@ -248,42 +248,44 @@ html,body{
   font-size: 100px;
   color: #222222;
   text-align: left;
-  margin-top: 28vh;
+  letter-spacing: 0.045em;
+  margin-top: 22vh;
 }
 .title-div{
   border-top: 2px solid #B2BEAC;
   width: 100%;
   margin-top: 20px;
 }
-.rock-grid {
-  margin-top: 166px;
-  /*margin-left: 155px;
-  margin-right: 155px;*/
+.rock-grid{
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 72px;
+  column-gap: 4vw;
+  row-gap: 2rem;
   justify-items: center;
 }
 .rock-item img {
   width: 100%;
+  max-width: 100%;
   aspect-ratio: 1/1; /*perfect square ratio for images*/
   object-fit: cover; /*crops image to fit within the square*/
-  max-width: 329px;  
-  max-height: 329px;
   align-items:center;
 }
+.rock-item a {
+  text-decoration: none;
+}
 .rock-name { /*revised css name labels to be black + left-aligned rather than center-aligned in a button (like Ali suggested) --> names have yet to be changed*/
-  margin-top: 15px;
-  margin-bottom: 70px; 
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  /*padding: 5px 12.5px;*/
   font-family: 'Warbler Deck';
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
-  color: #0C0801;
+  color: #616F61;
+  text-align: left;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  display: block;
+  flex-direction: column;
 }
 
 /*footer*/
@@ -309,7 +311,7 @@ html,body{
   color: #616F61;
   margin-top: 50px;
 }
-.copyright{
+.project-name{
   font-family: 'Warbler Banner';
   font-weight: 700;
   font-size: 10px;

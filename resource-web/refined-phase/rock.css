@@ -1,7 +1,7 @@
 /*colours: 
     pale green: #B2BEAC
     sage: #616F61
-    charcoal: #0C0801
+    charcoal: #222222
     cream: #F1F0E4
 */
 
@@ -28,8 +28,8 @@ h3{
     font-family: 'Warbler Deck';
     font-weight: 400;
     font-style: italic;
-    font-size: 50px;
-    color: #0c0801;
+    font-size: 35px;
+    color: #222222;
     margin-bottom: 38px;
 }
 
@@ -89,12 +89,11 @@ li{
     font-family: 'Warbler Text';
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     color: #616F61;
     line-height: 1.2;
     margin-top: -15px;
     margin-bottom: 15px;
-    /*margin-left: 20px*/
     padding-left: 10px;
 }
 li::marker{ /*bullet point*/
@@ -110,7 +109,7 @@ li::marker{ /*bullet point*/
     font-family: 'Warbler Text';
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     color: #616F61;
     margin-top: 0;
     text-align: right;
