@@ -1,0 +1,53 @@
+/*colours: 
+    pale green: #B2BEAC
+    sage: #616F61
+    charcoal: #0C0801
+    cream: #F1F0E4
+*/
+
+.nav-div{
+    border-top: 2px solid #B2BEAC;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-image img{
+    width: 100%;
+    max-width: 1360px;
+    display: block;
+}
+
+main{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Masqualero';
+    font-variant: small-caps;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 70px;
+    color: #0c0801;
+}
+
+.intro{
+    font-family: 'Warbler Deck';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #616F61;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+p{
+    font-family: 'Warbler Text';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #616F61;
+    max-width: 650px;
+    padding-left: 10px;
+}

@@ -1,0 +1,129 @@
+/*colours: 
+    pale green: #B2BEAC
+    sage: #616F61
+    charcoal: #0C0801
+    cream: #F1F0E4
+*/
+
+.rock-information{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 270px;
+}
+
+h2{
+    font-family: 'Warbler Deck';
+    font-variant: small-caps;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #0c0801;
+    margin-bottom: -15px;
+}
+
+h3{
+    font-family: 'Warbler Deck';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    color: #0c0801;
+    margin-bottom: 38px;
+}
+
+.nav-div{
+    border-top: 2px solid #B2BEAC;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*hero image*/
+.image-container{
+    position: relative;
+}
+#rock-image {
+    width: 100%;
+    max-width: 1360px;
+    aspect-ratio: 1360 / 874; /*ensures that image matches figma image size*/
+    object-fit: cover; /*ensures that image fits with the correct dimensions*/
+    height: auto;
+    display: block;
+}
+.back{
+    position: absolute;
+    padding: 40px;
+    top: -10px;
+    right: 0;
+    font-size: 65px;
+    text-decoration: none;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 4px #616F61;
+}
+.image-div{
+    border-top: 2px solid #B2BEAC;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*header*/
+#rock-title{
+    font-family: 'Masqualero';
+    font-variant: small-caps;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 75px;
+    color: #0c0801;
+    margin-bottom: -2.5px;
+}
+
+/*bullet points*/
+ul{
+    margin: 0;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+li{
+    font-family: 'Warbler Text';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #616F61;
+    line-height: 1.2;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    /*margin-left: 20px*/
+    padding-left: 10px;
+}
+li::marker{ /*bullet point*/
+    font-size: 15px;
+}
+
+/*anecdotal data*/
+.personal-details{
+    padding-top: 60px;
+    max-width: 500px;
+}
+#anecdote p{
+    font-family: 'Warbler Text';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #616F61;
+    margin-top: 0;
+    text-align: right;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+#locTime{
+    margin-top: 65px;
+    font-family: 'Warbler Deck';
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 20px;
+    color: #0c0801;
+    text-align: right;
+}
