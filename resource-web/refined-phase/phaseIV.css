@@ -192,6 +192,41 @@
 }
 
 
+/*fade in animation*/
+@keyframes fadeIn{
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+      visibility: visible;
+    }
+    to {
+      opacity: 1; transform: translateY(0);
+      visibility: visible;
+    }
+}
+@keyframes titleFadeIn{
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+.loading .archive-page .navbar{
+  visibility: hidden;
+  animation: fadeIn 0.5s ease-in forwards;
+  animation-delay: 0.75s;
+}
+.loading .web-title, .loading .title-div{
+  animation: titleFadeIn 0.75s ease-in forwards;
+}
+.loading .archive{
+  visibility: hidden;
+  animation: fadeIn 0.5s ease-in forwards;
+  animation-delay: 0.75s;
+}
+
+
 /*entire html page*/
 html,body{
   margin: 1.25rem 2.5vw;
@@ -201,32 +236,36 @@ html,body{
   background-color: #F1F0E4;
 }
 
-
 /*header*/
 .navbar{
-    display: flex;
-    align-items: center;
-    gap: 8rem;
-    width: 100%;
-    height: 100px;
-    position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  width: 100%;
+  min-height: 6rem;
+  position: relative;
 }
 .logo{
-    height: 100px;
-    width: 100px;
-    background-color:#B2BEAC;
+  height: 6rem;
+  width: 6rem;
+  background-color:#B2BEAC;
 }
 .navigation{
   display: flex;
   gap: 8rem;
 }
 .navigation a{
-    font-family: 'Masqualero';
-    font-variant: small-caps;
-    font-weight: 300;
-    font-size: 25px;
-    color: #616F61;
-    text-decoration: none;
+  font-family: 'Masqualero';
+  font-variant: small-caps;
+  font-weight: 300;
+  font-size: 25px;
+  color: #616F61;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease; /*transitions the colour smoothly, not instantaneously*/
+}
+.navigation a:hover{
+  color: #B2BEAC;
 }
 
 
@@ -274,7 +313,7 @@ html,body{
 .rock-item a {
   text-decoration: none;
 }
-.rock-name { /*revised css name labels to be black + left-aligned rather than center-aligned in a button (like Ali suggested) --> names have yet to be changed*/
+.rock-name { 
   font-family: 'Warbler Deck';
   font-weight: 400;
   font-style: normal;
@@ -285,7 +324,10 @@ html,body{
   margin-top: 1rem;
   margin-bottom: 3rem;
   display: block;
-  flex-direction: column;
+  transition: color 0.3s ease; /*transitions the colour smoothly, not instantaneously*/
+}
+.rock-name:hover{
+  color: #B2BEAC;
 }
 
 /*footer*/
@@ -293,12 +335,12 @@ html,body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 4rem;
 }
 .footer-div{
     border-top: 2px solid #B2BEAC;
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 2rem;
 }
 .footer p{
   margin: 0;
@@ -309,13 +351,14 @@ html,body{
   font-size: 14px;
   font-style: normal;
   color: #616F61;
-  margin-top: 50px;
+  margin-top: 3rem;
 }
-.project-name{
+.footer a{
   font-family: 'Warbler Banner';
   font-weight: 700;
   font-size: 10px;
   font-style: italic;
   color: #616F61;
   line-height: 3;
+  text-decoration: none;
 }
