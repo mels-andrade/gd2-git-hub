@@ -32,44 +32,44 @@ const rockData ={ //note: this MUST remain at the top of the code in order for t
     v:{
         name: '...',
         classification: ['Metamorphic rock', 'Tumbled slate'],
-        sizeShape: ['2.3cmcm × 1.6cm × 0.9cm', 'abc'],
+        sizeShape: ['2.3cmcm × 1.6cm × 0.9cm', 'Rounded trigonal form with a concave indentation along one of its edges'],
         colour: ['Stone brown on one side, charcoal grey on the other with light grey stripes on both sides'],
         texture: ['Satin smooth texture']
     },
     vi:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc'] 
+        name: 'Honey Nugget',
+        classification: ['Metamorphic rock', 'Ferruginous quartz'],
+        sizeShape: ['1.3cm × 1.2cm × 1.25cm', 'Compact nodule with softened edges'],
+        colour: ['Marbled honey orange with blots of burnt amber'],
+        texture: ['Waxy satin finish with a glass-like hardness; surprisingly dense for its small size'] 
     },
     vii:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'The Perfect Pebble',
+        classification: ['Sedimentary rock', 'Greywacke pebble'],
+        sizeShape: ['1.9cm × 1.6cm × 0.4cm', 'A perfectly flat oval'],
+        colour: ['Olive grey encompassed by two shadowy, parallel bands'],
+        texture: ['Slick, matte surface']
     },
     viii:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: '...',
+        classification: ['Igneous rock', 'Milky quartz'],
+        sizeShape: ['1.9cm × 1.55cm × 1.2cm', 'Asymmetric pyriform'],
+        colour: ['Milky white with golden undertones, marked by two distinct 2 charcoal black smudges'],
+        texture: ['Frosted sea glass smoothness interrupted by tiny shallow indentations']
     },
     ix:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: '...',
+        classification: ['Sedimentary rock', 'Siltstone'],
+        sizeShape: ['2.6cm × 1.4cm × 1.1cm', 'Truncated wedge '],
+        colour: ['Lavender grey with distinct white crackle lines and charcoal grey inclusions'],
+        texture: ['Relatively slick with a raised jagged ridge on its side']
     },
     x:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: '...',
+        classification: ['Sedimentary rock', 'Ironstone'],
+        sizeShape: ['2.2cm × 2.1cm × 0.6cm', 'Reuleaux triangle (rounded equilateral triangle)'],
+        colour: ['Russet brown featuring dusty white hairline striations and slate-black flecks'],
+        texture: ['Mellowed smoothness met with subtle pits and dips']
     },
     xi:{
         name: '',
