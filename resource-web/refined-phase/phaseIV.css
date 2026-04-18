@@ -193,7 +193,7 @@
 
 
 /*fade in animation*/
-@keyframes fadeIn{
+@keyframes fadeIn{ /*rock grid and navbar fade*/
     from {
       opacity: 0;
       transform: translateY(10px);
@@ -204,7 +204,7 @@
       visibility: visible;
     }
 }
-@keyframes titleFadeIn{
+@keyframes titleFadeIn{ /*title and title divider fade*/
     from {
       opacity: 0;
     }
@@ -239,11 +239,10 @@ html,body{
   background-color: #F1F0E4;
   cursor: url('../images/covers/cursor.cur'), auto;
 }
-
-/*cursor hover states*/
-a:hover, a:hover *{
+a:hover, a:hover *{ /*cursor hover states*/
   cursor: url('../images/hover/cursor-hover.cur'), auto;
 }
+
 
 /*header*/
 .navbar{
@@ -257,10 +256,13 @@ a:hover, a:hover *{
 .logo img{
   height: 6rem;
   width: 6rem;
+  transition: opacity 0.3s ease, transform 0.3s ease-in-out;
+  transform: scale(1);
+  will-change: transform, opacity; /*prevents snappy transition*/
 }
-.logo:hover {
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
+.logo:hover img{
+  opacity: 0.5;
+  transform: scale(1.05);
 }
 .navigation{
   display: flex;
@@ -279,7 +281,6 @@ a:hover, a:hover *{
 .navigation a:hover{
   color: #B2BEAC;
 }
-
 
 
 /*main*/
@@ -316,12 +317,33 @@ a:hover, a:hover *{
   row-gap: 2rem;
   justify-items: center;
 }
-.rock-item img {
+.img-wrapper { /*image container for default and hover images*/
+  position: relative;
   width: 100%;
   max-width: 100%;
-  aspect-ratio: 1/1; /*perfect square ratio for images*/
-  object-fit: cover; /*crops image to fit within the square*/
-  align-items:center;
+  aspect-ratio: 1/1; /*maintains perfect square ratio*/
+  overflow: hidden; 
+  justify-content:center;
+}
+.img-wrapper img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.3s ease, transform 0.4s ease; /*opacity transition*/
+  justify-content:center;
+}
+.img-wrapper .hover {
+  position: absolute;
+  inset: 0; /*top: 0; left: 0; right: 0; bottom: 0;*/
+  opacity: 0;
+}
+.rock-item:hover .default {
+  opacity: 0;
+}
+.rock-item:hover .hover {
+  opacity: 1;
 }
 .rock-item a {
   text-decoration: none;
@@ -339,7 +361,7 @@ a:hover, a:hover *{
   display: block;
   transition: color 0.3s ease; /*transitions the colour smoothly, not instantaneously*/
 }
-.rock-name:hover{
+.rock-item:hover .rock-name{
   color: #B2BEAC;
 }
 
