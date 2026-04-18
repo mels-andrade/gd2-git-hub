@@ -90,6 +90,7 @@ h3{
 }
 .back:hover{
     opacity: 0.6;
+    cursor: url('../images/hover/cursor-hover.png'), pointer;
 }
 .image-div{
     border-top: 2px solid #B2BEAC;
@@ -158,4 +159,9 @@ li::marker{ /*bullet point*/
     color: #222222;
     text-align: left;
     margin-top: 3rem;
+}
+
+.footer a:hover{
+  color: #B2BEAC;
+  cursor: url('../images/hover/cursor-hover.png'), pointer;
 }

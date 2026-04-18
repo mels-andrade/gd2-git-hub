@@ -226,6 +226,9 @@
   animation-delay: 0.75s;
 }
 
+*, *::before, *::after {
+  cursor: url('../images/covers/cursor.cur'), auto; /*keep in code or else cursor glitches*/
+}
 
 /*entire html page*/
 html,body{
@@ -234,6 +237,12 @@ html,body{
   flex-direction: column;*/
   min-height: 100vh;
   background-color: #F1F0E4;
+  cursor: url('../images/covers/cursor.cur'), auto;
+}
+
+/*cursor hover states*/
+a:hover, a:hover *{
+  cursor: url('../images/hover/cursor-hover.cur'), auto;
 }
 
 /*header*/
@@ -267,6 +276,7 @@ html,body{
 .navigation a:hover{
   color: #B2BEAC;
 }
+
 
 
 /*main*/
@@ -330,6 +340,7 @@ html,body{
   color: #B2BEAC;
 }
 
+
 /*footer*/
 .footer{
   display: flex;
@@ -361,4 +372,7 @@ html,body{
   color: #616F61;
   line-height: 3;
   text-decoration: none;
+}
+.footer a:hover{
+  color: #B2BEAC;
 }
