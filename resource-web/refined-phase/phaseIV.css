@@ -249,19 +249,22 @@ a:hover, a:hover *{
 .navbar{
   display: flex;
   align-items: center;
-  gap: 8rem;
+  gap: 6rem;
   width: 100%;
   min-height: 6rem;
   position: relative;
 }
-.logo{
+.logo img{
   height: 6rem;
   width: 6rem;
-  background-color:#B2BEAC;
+}
+.logo:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
 .navigation{
   display: flex;
-  gap: 8rem;
+  gap: 6rem;
 }
 .navigation a{
   font-family: 'Masqualero';
