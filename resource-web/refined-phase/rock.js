@@ -5,7 +5,7 @@ const rockData ={ //note: this MUST remain at the top of the code in order for t
         name: 'Jaws',
         classification:['Igneous rock', 'Granite'],
         sizeShape: ['9.5cm × 9cm × 5cm', 'Irregular, nodular form with various protrusions and indentations'],
-        colour: ['Combination of brownish-grey, pale taupe, charcoal black, and peachy tones that sparkles in the light'],
+        colour: ['Combination of brownish-grey, pale taupe, charcoal black, and peachy tones that sparkle in the light'],
         texture: ['Rough, uneven surface; extremely coarse to the touch']
     },
     ii:{
@@ -18,14 +18,14 @@ const rockData ={ //note: this MUST remain at the top of the code in order for t
     iii:{
         name: 'Peaches',
         classification: ['Sedimentary rock', 'Quartz river pebble'],
-        sizeShape: ['3.5cm × 3.8cm × 2.8cmcm', 'Ovoid with an inward taper on 2 sides'],
+        sizeShape: ['3.5cm × 3.8cm × 2.8cm', 'Ovoid with an inward taper on 2 sides'],
         colour: ['Warm dove grey base with hints of coral and dark taupe'],
         texture: ['Soft, smooth feel with a few fracture lines']
     },
     iv:{
         name: 'Yarn Ball',
         classification: ['Chemical sedimentary rock', 'Desert rose'],
-        sizeShape: ['1.4cm × 1.1cm × 1.3cm high  × 3.5cm', 'Circular rosette-like form'],
+        sizeShape: ['1.4cm × 1.1cm × 1.3cm', 'Circular rosette-like form'],
         colour: ['Various shades of sandstone with white highlights'],
         texture: ['Imbricating lattice pattern with a gritty feel']
     }, 
@@ -175,7 +175,7 @@ const anecdotalData ={
         locTime: ['found in the blue mountains, on | august 2022']
     },
     v:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in toronto, on | date unknown']
     }, 
     vi:{
@@ -187,55 +187,55 @@ const anecdotalData ={
         locTime: ['found in toronto, on | date unknown']
     },
     viii:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in toronto, on | date unknown']
     },
     ix:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in toronto, on | date unknown']
     }, 
     x:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in toronto, on | date unknown']
     },
     xi:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xii:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in toronto, on | date unknown']
     },
     xiii:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xiv:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xv:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xvi:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xvii:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xviii:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xix:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xx:{
-        anecdote: [''],
+        anecdote: [],
         locTime: ['found in the blue mountains, on | august 2022']
     },
     xxi:{

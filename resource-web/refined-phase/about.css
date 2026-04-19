@@ -119,3 +119,31 @@ h1{
     padding-right: 10rem;
     padding-bottom: 2rem;
 }
+
+
+@media (max-width: 821px){ /*design begins breaking after 821px*/
+  h1{
+    font-size: 50px;
+  }
+  .intro{
+    font-size: 25px;
+  }
+  .brief, .info, .outro{
+    font-size: 15px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (max-width: 647px){ /*about this project heading begins breaking after 647px*/
+    h1{
+        font-size: 38px;
+    }
+    .intro{
+        font-size: 20px;
+    }
+    .brief, .info, .outro{
+        font-size: 12px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

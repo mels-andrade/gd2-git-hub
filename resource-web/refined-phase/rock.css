@@ -33,16 +33,6 @@
     grid-template-columns: 1fr 1fr;
     column-gap: clamp(2rem, 10vw, 15rem); /*3 values are min, ideal, max*/
 }
-
-h2{
-    font-family: 'Warbler Deck';
-    font-variant: small-caps;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    color: #0c0801;
-}
-
 h3{
     font-family: 'Warbler Deck';
     font-weight: 400;
@@ -51,10 +41,10 @@ h3{
     color: #222222;
     margin-bottom: 0.75rem;
 }
-
 .rock-information h3:first-of-type{ /*gets rid of massive space between title and first label*/
     margin-top: 0;
 }
+
 
 .nav-div{
     border-top: 2px solid #B2BEAC;
@@ -62,6 +52,7 @@ h3{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
 
 /*hero image*/
 .image-container{
@@ -132,7 +123,6 @@ li::marker{ /*bullet point*/
 
 /*anecdotal data*/
 .personal-details{
-    max-width: 32rem;
     align-self: start;
 }
 #anecdote p{
@@ -144,6 +134,12 @@ li::marker{ /*bullet point*/
     text-align: left;
     line-height: 1.2;
     margin-bottom: 1.25rem;
+}
+.pre-p-div{
+    border-top: 1.5px solid #B2BEAC;
+    width: 100%;
+    margin-top: 0px;
+    opacity: 0;
 }
 .p-div{
     border-top: 1.5px solid #B2BEAC;
@@ -164,4 +160,63 @@ li::marker{ /*bullet point*/
 .footer a:hover{
   color: #B2BEAC;
   cursor: url('../images/hover/cursor-hover.png'), pointer;
+}
+
+
+@media (max-width: 821px){ /*column structure begins breaking after 869px*/
+    .rock-information{
+        margin: 0 auto;
+        padding: 0;
+        column-gap: 2rem; 
+    }
+    h3{
+        font-size: 30px;
+    }
+    li{
+        font-size: 16px;
+    }
+    li::marker{ /*bullet point*/
+        font-size: 10px;
+    }
+    #anecdote p{
+        font-size: 16px;
+    }
+    #locTime{
+        font-size: 16px;
+    }
+}
+@media (max-width: 770px){
+    .back{
+        font-size: 2rem;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.005em 0.25em;
+    }
+    .rock-information{
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+    #anecdote p{
+        font-size: 16px;
+    }
+    .p-div{
+        opacity: 0;
+    }
+    .pre-p-div{
+        opacity: 1;
+    }
+    #locTime{
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 500px){
+    #rock-title{
+        font-size: 50px;
+    }
+    .back{
+        font-size: 1.5rem;
+        top: 0.75rem;
+        right: 0.75rem;
+        padding: 0.005em 0.25em;
+    }
 }

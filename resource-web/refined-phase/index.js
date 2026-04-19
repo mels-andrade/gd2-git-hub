@@ -6,3 +6,7 @@ if (!visited) {
 } else {
     //does nothing 
 }
+
+//console log viewport width size, just for reference
+const viewportWidth = window.innerWidth;
+console.log("The current width is: " + viewportWidth + "px");

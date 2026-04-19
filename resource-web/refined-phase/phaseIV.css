@@ -284,7 +284,7 @@ a:hover, a:hover *{ /*cursor hover states*/
 
 
 /*main*/
-.main{
+main{
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -400,4 +400,65 @@ a:hover, a:hover *{ /*cursor hover states*/
 }
 .footer a:hover{
   color: #B2BEAC;
+}
+
+
+@media (max-width: 1071px){/*switching to 3 column grid*/
+  .rock-grid {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 6vw;
+      row-gap: 0.75rem;
+  }
+}
+@media (max-width: 821px){ /*design begins breaking after 821px*/
+  html, body {
+    margin: 1rem 5vw;
+  }
+  .content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar {
+    gap: 2.5rem; 
+  }
+  .navigation {
+    gap: 1.5rem;
+  }
+  .rock-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6vw;
+    row-gap: 0.75rem;
+  }
+  .rock-name{
+    margin-bottom: 0.75rem;
+  }
+}
+@media (max-width: 635px){ /*web title breaks up into 3 lines after 602px*/
+  .logo img{
+    width: 5rem;
+    height: 5rem;
+  }
+  .web-title {
+    font-size: 70px;
+    margin-top: 12vh;
+  }
+  .navigation a{
+    font-size: 20px;
+  }
+}
+@media (max-width: 445px){
+  .rock-grid {
+    grid-template-columns: 1fr;
+    row-gap: 0.75rem;
+  }
+  .web-title {
+    font-size: 55px;
+    margin-top: 12vh;
+  }
+  .rock-name{
+    font-size: 25px; 
+  }
+  .main-footer{
+    font-size: 10px;
+  }
 }
