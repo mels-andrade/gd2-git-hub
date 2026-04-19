@@ -298,4 +298,5 @@ locTime.innerText = personal.locTime[0];
 
 
 document.getElementById("rock-image").src = "../images/covers/" + id + ".jpg";
+document.getElementById("rock-image").alt = "An image of " + rock.name;
 document.getElementById("rock-title").innerText = rock.name;
