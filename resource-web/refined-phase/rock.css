@@ -165,7 +165,7 @@ li::marker{ /*bullet point*/
 
 @media (max-width: 821px){ /*column structure begins breaking after 869px*/
     .rock-information{
-        margin: 0 auto;
+        grid-template-columns: 1fr;
         padding: 0;
         column-gap: 2rem; 
     }
