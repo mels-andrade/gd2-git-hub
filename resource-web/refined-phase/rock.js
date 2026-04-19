@@ -2,7 +2,7 @@
 
 const rockData ={ //note: this MUST remain at the top of the code in order for the entire code to work 
     i:{
-        name: '...',
+        name: 'Jaws',
         classification:['Igneous rock', 'Granite'],
         sizeShape: ['9.5cm × 9cm × 5cm', 'Irregular, nodular form with various protrusions and indentations'],
         colour: ['Combination of brownish-grey, pale taupe, charcoal black, and peachy tones that sparkles in the light'],
@@ -30,7 +30,7 @@ const rockData ={ //note: this MUST remain at the top of the code in order for t
         texture: ['Imbricating lattice pattern with a gritty feel']
     }, 
     v:{
-        name: '...',
+        name: 'Dune',
         classification: ['Metamorphic rock', 'Tumbled slate'],
         sizeShape: ['2.3cmcm × 1.6cm × 0.9cm', 'Rounded trigonal form with a concave indentation along one of its edges'],
         colour: ['Stone brown on one side, charcoal grey on the other with light grey stripes on both sides'],
@@ -51,109 +51,109 @@ const rockData ={ //note: this MUST remain at the top of the code in order for t
         texture: ['Slick, matte surface']
     },
     viii:{
-        name: '...',
+        name: 'Cough Drop',
         classification: ['Igneous rock', 'Milky quartz'],
         sizeShape: ['1.9cm × 1.55cm × 1.2cm', 'Asymmetric pyriform'],
         colour: ['Milky white with golden undertones, marked by two distinct 2 charcoal black smudges'],
         texture: ['Frosted sea glass smoothness interrupted by tiny shallow indentations']
     },
     ix:{
-        name: '...',
+        name: 'Eraserhead',
         classification: ['Sedimentary rock', 'Siltstone'],
         sizeShape: ['2.6cm × 1.4cm × 1.1cm', 'Truncated wedge '],
         colour: ['Lavender grey with distinct white crackle lines and charcoal grey inclusions'],
         texture: ['Relatively slick with a raised jagged ridge on its side']
     },
     x:{
-        name: '...',
+        name: 'Caramel',
         classification: ['Sedimentary rock', 'Ironstone'],
         sizeShape: ['2.2cm × 2.1cm × 0.6cm', 'Reuleaux triangle (rounded equilateral triangle)'],
         colour: ['Russet brown featuring dusty white hairline striations and slate-black flecks'],
         texture: ['Mellowed smoothness met with subtle pits and dips']
     },
     xi:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Sneaker',
+        classification: ['Igneous rock', 'Pegmatite'],
+        sizeShape: ['3.1cm × 1.9cm × 1.4cm', 'Complex angular form defined by sharp edges and a pronounced structural arch'],
+        colour: ['Blush pink with erratic patches of forest green and bright white'],
+        texture: ['Rigid, faceted surface with hard-edged, reflective planes']
     },
     xii:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Salmon',
+        classification: ['Igneous rock', 'Granite'],
+        sizeShape: ['2.7cm × 1.9cm × 1.2cm', 'Asymmetric inflated trigonal form'],
+        colour: ['Warm salmon pink base mottled with burnt sienna,  taupe, and other earthy tones'],
+        texture: ['Inconsistent, undulating surface; somewhat slippery']
     },
     xiii:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Black Hole Sun',
+        classification: ['Metamorphic rock', 'Black tourmaline'],
+        sizeShape: ['2.25cm × 1.4cm × 1.9cm', 'Slender prismatic form with a blunt base'],
+        colour: ['Saturated jet black all throughout with a glassy sheen'],
+        texture: ['Jagged, deeply striated surface; brittle']
     },
     xiv:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Salt Lamp',
+        classification: ['Igneous rock', 'Sunstone'],
+        sizeShape: ['1.9cm × 1.3cm × 1.85cm', 'Geometric form defined by a distinct, elevated point'],
+        colour: ['Various shades of peachy orange transitioning into a frosted, translucent white tip'],
+        texture: ['Glassy, sharp-edged surface']
     },
     xv:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Seafoam',
+        classification: ['Sedimentary rock', 'Quartz geode'],
+        sizeShape: ['2.8cm × 1.35cm × 3.15cm', 'Globular cluster with a projecting point'],
+        colour: ['Sepia tan exterior contrasting a sparkling, smokey white interior'],
+        texture: ['Abrasive, gritty surface; similar to sugar/salt crystals']
     },
     xvi:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Crimpy',
+        classification: ['Igneous rock', 'Beryl'],
+        sizeShape: ['2.3cm × 1.6cm × 0.8cm', 'Wide-angle tabular wedge'],
+        colour: ['Translucent mint green and frosted white base, offset by charcoal black specks'],
+        texture: ['Structurally rigid; significantly dry']
     },
     xvii:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Listerine',
+        classification: ['Igneous rock', 'Chevron amethyst'],
+        sizeShape: ['1.85cm × 1.3cm × 1.1cm', 'Oblique scalene-pyramidal fragment'],
+        colour: ['Deep plum stratified with milky white bands'],
+        texture: ['Rigid and layered; feels like stacks of slates fused together']
     },
     xviii:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Graffiti Slab',
+        classification: ['Sedimentary rock', 'Orbicular jasper'],
+        sizeShape: ['2.2cm × 0.5cm × 1.3cm', 'Flattened scalene shard'],
+        colour: ['Crimson red and off-white overlaid with moss green organic, circular marks'],
+        texture: ['Starkly gritty surface paired with a serrated edge']
     },
     xix:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Kaleidoscope ',
+        classification: ['Sedimentary rock', 'Leopard skin jasper'],
+        sizeShape: ['2.2cm × 1.6cm × 1.1cm', 'Abstract, irregular form; jagged perimeter'],
+        colour: ['Mosaic of scarlet red, pastel orange, and terracotta bounded by charcoal black rings'],
+        texture: ['Tactilely dry and exceptionally rigid']
     },
     xx:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Red Pine',
+        classification: ['Igneous rock', 'Mahogany Obsidian'],
+        sizeShape: ['4.1cm × 2.3cm × 0.3cm', 'Arrowhead with a deep, symmetrically ribbed perimeter'],
+        colour: ['Jet black base with mahogany marbling'],
+        texture: ['Physically sleek across the planes, with aggressively jagged edges']
     },
     xxi:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Cursor 1.0',
+        classification: ['Sedimentary rock', 'Chert'],
+        sizeShape: ['4.3cm × 2.2cm × 0.45cm', 'Arrowhead'],
+        colour: ['Burnt sienna with hints of ash brown'],
+        texture: ['Waxy smooth feel accompanied by a sharp splintered point']
     },
     xxii:{
-        name: '',
-        classification: ['abc'],
-        sizeShape: ['abc'],
-        colour: ['abc'],
-        texture: ['abc']
+        name: 'Meatball',
+        classification: ['Metamorphic rock', 'Amphibolite'],
+        sizeShape: ['3.9cm × 2.4cm × 3.2cm', 'Ovoid mound'],
+        colour: ['Muted charcoal grey peppered with earthy brown tones in a non-uniform pattern'],
+        texture: ['Rough-grained and unyielding; dense weight']
     }   
 }
 
@@ -171,80 +171,80 @@ const anecdotalData ={
         locTime: ['found in woodbine beach park · toronto, on | july 2023']
     },
     iv:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: ['It feels like only yesterday that I went up to Blue Mountain with my family, begging them to let me go to the Gemstone Mining Tower.', 'There, you can engage in a very physical process, sifting through sand and debris to uncover random hidden treasures.', 'I remember the childlike joy I felt taking the extremely rusty screening tray to the wooden water sluice, ready to get my hands dirty.', 'Many of the rocks in this archive were found in that specific location and on that very day, with the people I love most.'],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     v:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in toronto, on | date unknown']
     }, 
     vi:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: ['When Winnie-the-Pooh asks for a smackerel of honey, this is immediately what comes to mind for me (in rock form, of course).'],
+        locTime: ['found in toronto, on | date unknown']
     },
     vii:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: ['In my personal opinon, no rock in the world will ever surpass the perfection of this pebble.', 'Truly one of my best rock finds.'],
+        locTime: ['found in toronto, on | date unknown']
     },
     viii:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in toronto, on | date unknown']
     },
     ix:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in toronto, on | date unknown']
     }, 
     x:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in toronto, on | date unknown']
     },
     xi:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xii:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in toronto, on | date unknown']
     },
     xiii:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xiv:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xv:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xvi:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xvii:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xviii:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xix:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xx:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: [''],
+        locTime: ['found in the blue mountains, on | august 2022']
     },
     xxi:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: ['This rock served as a major inspiration for the creation of my website. Immediately, I knew it would function exceptionally well as a cursor for this site.', 'And that is exactly what I did.'],
+        locTime: ['found in the blue mountains, on | summer 2016']
     },
     xxii:{
-        anecdote: ['abc'],
-        locTime: ['abc']
+        anecdote: ['The most recent rock added to my collection.', 'While on my way home from school, I came across this absolute beauty hidden under a bush.', 'I was having a particularly difficult day; overwhelming feelings and just being consumed by work and stress.', 'For me, this rock signified a reason to continue pushing forward. It served as a reminder that while life may move quickly, I need to stay strong and grounded, just like that rock.'],
+        locTime: ['found on algonquin avenue · toronto, on | march 2026']
     },
 }
 
