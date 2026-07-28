@@ -28,24 +28,27 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-steps:
+    steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # This automatically writes the shortcut file during the build process
-      # so you don't have to create one yourself!
-      - name: Auto-generate redirect shortcut
+      # This creates a perfect copy of your project folder structure 
+      # so your "../images" links match up perfectly in the browser
+      - name: Prepare layout for deployment
         run: |
-          echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=./resource-web/refined-phase/index.html"></head></html>' > index.html
+          mkdir -p deploy-folder/resource-web
+          cp -r resource-web/images deploy-folder/resource-web/images
+          cp -r resource-web/refined-phase deploy-folder/resource-web/refined-phase
+          echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=./resource-web/refined-phase/index.html"></head></html>' > deploy-folder/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload everything so your folder structure and "../images" stay perfectly matched
-          path: '.'
+          # Tells GitHub to publish our perfectly structured folder
+          path: 'deploy-folder'
 
       - name: Deploy to GitHub Pages
         id: deployment
