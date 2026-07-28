@@ -41,6 +41,7 @@ jobs:
         run: |
           mkdir -p deploy-folder/resource-web
           cp -r resource-web/images deploy-folder/resource-web/images
+          cp -r resource-web/fonts deploy-folder/resource-web/fonts
           cp -r resource-web/refined-phase deploy-folder/resource-web/refined-phase
           echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=./resource-web/refined-phase/index.html"></head></html>' > deploy-folder/index.html
 
